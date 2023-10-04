@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantillas</title>
+</head>
+<body>
+    <h1>Selecciona una plantilla de mensaje:</h1>
+    <form id="templateForm">
+        <label for="template1">
+            <input type="radio" id="template1" name="template" value="Le recordamos que mañana tiene su cita en la barbería Pelitos "> Recordatorio
+        </label><br>
+        <label for="template2">
+            <input type="radio" id="template2" name="template" value="Desea confirmar su cita? "> Confirmación de cita
+        </label><br>
+        <label for="template3">
+            <input type="radio" id="template3" name="template" value="Que calificación le brindarias a nuestro servicio?? "> Evaluación de servicio
+        </label><br>
+        <!-- Agregar más plantillas de mensajes aquí -->
+        <button type="button" id="send-button">Enviar Mensaje</button>
+    </form>
+
+    <script src="plantillas.js"></script>
+</body>
+</html>
